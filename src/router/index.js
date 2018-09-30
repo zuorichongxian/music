@@ -5,6 +5,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+  base: '/music/', //加上这一行
   routes: [{
       path: '/',
       redirect: '/recommend'
